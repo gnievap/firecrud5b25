@@ -15,9 +15,9 @@ class ArtistModel {
       required this.start});
 
   // Convertir un Artist a un Map
+  // Insertar un Artist en la base de datos
   Map<String, dynamic> toMap() {
     return {
-      'id': id,
       'nombre': name,
       'genero': genre,
       'albums': albums,
